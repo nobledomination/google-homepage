@@ -1,3 +1,8 @@
+body {
+    width: 100%;
+    font-family: Arial;
+
+}
 .center {
     display: block;
     margin: auto;
@@ -11,26 +16,75 @@
 .search {
     display: block;
     margin: auto;
-    margin-top: 2em;
-    width: 100%;
-    max-width: 30%;
-    padding: 10px;  
+    width: 90%;
+    max-width: 32%;
+     
 
 }
 
-#search-button, #lucky-button {
+.btn {
     display: inline-block;
-    margin: 2em auto;
+    margin: 1.5em auto;
     padding: 10px 20px;
     border-radius: 5px;
-    border: none;
+    border: transparent;
     background-color: #f3f3f3;
+    color: rgba(102, 101, 101, 0.986);
+    
     
     
     
 }
+
+.btn:hover {
+    
+    border: 1px solid rgba(128, 128, 128, 0.24);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: rgba(24, 23, 23, 0.986)
+
+
+}
+
 
 #buttons {
     text-align: center;
 }
+
+
+
+#nederlands, #frysk, #preftext {
+    display: inline-block;
+
+}
+
+#langprefs {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#glass {
+    height: auto; 
+    width: auto; 
+    max-width: 15px; 
+    max-height: 15px;
+    margin: 2.3em 0em 0em 40.5em;
+   
+    
+
+}
+
+#glasswrapper {
+    width: 20px;
+    height:20px;
+    
+}
+
+.search {
+    background-color: white;
+    border: 1px solid rgba(151, 151, 151, 0.301);
+    border-radius: 1em;
+    padding: 0.9em 2em;
+}
+
 
