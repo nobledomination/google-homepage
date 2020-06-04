@@ -1,0 +1,36 @@
+.center {
+    display: block;
+    margin: auto;
+    
+}
+
+.images {
+    margin-top: 12.5em;
+}
+
+.search {
+    display: block;
+    margin: auto;
+    margin-top: 2em;
+    width: 100%;
+    max-width: 30%;
+    padding: 10px;  
+
+}
+
+#search-button, #lucky-button {
+    display: inline-block;
+    margin: 2em auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f3f3f3;
+    
+    
+    
+}
+
+#buttons {
+    text-align: center;
+}
+
