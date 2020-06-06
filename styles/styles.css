@@ -1,6 +1,6 @@
 body {
     width: 100%;
-    font-family: Arial;
+    font-family: Arial, sans-serif;
     overflow: hidden;
 
 }
@@ -23,6 +23,7 @@ body {
 
 }
 
+
 .search:hover {
     box-shadow: 1px 1px 4px rgba(128, 128, 128, 0.322);
 
@@ -30,12 +31,13 @@ body {
 
 .btn {
     display: inline-block;
-    margin: 1.5em auto;
+    margin: 2em auto;
     padding: 10px 20px;
     border-radius: 5px;
     border: transparent;
     background-color: #f3f3f3;
     color: rgba(102, 101, 101, 0.986);
+    font-size: 14px;
     
     
     
@@ -93,22 +95,63 @@ body {
     padding: 0.9em 3em;
 }
 
-.footer1 {
+.footer{
+    line-height: 40px;
+    font-size: 14px;
+    
+    
+}
+
+#footer-bot {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 30px;
     background-color: #f2f2f2;
-    color: white;
     text-align: left;
-    border: 1px solid rgba(151, 151, 151, 0.301)
-    display: block;
+    border: 1px solid rgba(151, 151, 151, 0.301);
+    
 
+}
+
+#footer-top {
+    position: fixed;
+    left: 0;
+    bottom: 40px;
+    width: 100%;
+    background-color: #f2f2f2;
+    text-align: left;
+    border: 1px solid rgba(151, 151, 151, 0.301);
+    
+
+}
+
+
+.nl1 {
+    color: rgba(102, 101, 101, 0.986);
+    margin-left: 25px;
+    
+    
 }
 
 a:link {
     text-decoration: none;
     
 }
+
+a:hover {
+    text-decoration: underline;
+}
+
+#furls {
+    color: rgba(102, 101, 101, 0.986);
+    margin-left: 25px;
+}
+
+#frurls {
+    color: rgba(102, 101, 101, 0.986);
+    margin-right: 25px;
+    float: right;
+}
+
 
