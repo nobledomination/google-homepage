@@ -155,3 +155,45 @@ a:hover {
 }
 
 
+.header1 {
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10px;
+    
+
+    
+}
+
+.header1 a:link {
+    font-size: 14px;
+    color: rgba(102, 101, 101, 0.986);
+    text-decoration: none;
+
+
+}
+
+.header1 a:visited {
+    color:inherit;
+}
+
+.header1 a:hover {
+    text-decoration: underline;
+}
+
+.test1 {
+    margin: 10px 25px 0px 0px;
+}
+
+#testimg {
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    
+}
+
+#testimg2 {
+    width: 16px;
+    height: 16px;
+}
